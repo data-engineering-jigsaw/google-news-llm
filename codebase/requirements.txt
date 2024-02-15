@@ -1,0 +1,6 @@
+GoogleNews
+readability-lxml
+bs4
+openai
+requests
+python-dotenv

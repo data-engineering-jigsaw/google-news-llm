@@ -6,9 +6,7 @@ from openai import OpenAI
 
 
 def build_context(sources):    
-    source_texts = [source.text for source in sources]
-    context = "\n\n".join(source_texts)
-    return context
+    pass
 
 def generate_prompt(question, sources):
     context = build_context(sources)
